@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealeniumTestProject", "HealeniumTestProject.csproj", "{4308A4DF-9ECE-440C-A30E-863397FAA24D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4308A4DF-9ECE-440C-A30E-863397FAA24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4308A4DF-9ECE-440C-A30E-863397FAA24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4308A4DF-9ECE-440C-A30E-863397FAA24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4308A4DF-9ECE-440C-A30E-863397FAA24D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21B425C5-F6BD-4443-BB69-A7635ED89744}
+	EndGlobalSection
+EndGlobal
