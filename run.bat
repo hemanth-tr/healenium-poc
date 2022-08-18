@@ -1,0 +1,6 @@
+start cmd /k "java -jar hlm-backend-3.2.3.jar --SPRING_POSTGRES_DB=healenium --SPRING_POSTGRES_SCHEMA=healenium --SPRING_POSTGRES_USER=healenium_user --SPRING_POSTGRES_PASSWORD=YDk2nmNs4s9aCP6K"
+start cmd /k "java -jar selenium-server-4.2.2.jar standalone"
+cd "healenium-selector-imitator"
+start cmd /k "py app.py"
+cd ".."
+start cmd /k "java -jar hlm-proxy-0.2.4-selenium-4.jar"
